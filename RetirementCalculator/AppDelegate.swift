@@ -18,9 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        MSAppCenter.start("e569ec8f-abed-4ac4-b523-cd17f24a7218", withServices:[
-          MSAnalytics.self,MSCrashes.self])
-         
+        MSAppCenter.start("b9dc9571-565e-4386-8bc0-9fb6393d9f4f", withServices:[
+          MSAnalytics.self,
+          MSCrashes.self
+        ])
         return true
     }
 
